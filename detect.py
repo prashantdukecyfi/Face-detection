@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 cap = cv2.VideoCapture(-1) #Camera started, change parameter to 0 or 1 if -1 doesn't work
 
-face_cascade = = cv2.CascadeClassifier('haarcascade_frontalface_default.xml') #Cascade data loaded here
+face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml') #Cascade data loaded here
 
 while (True) :
 	ret,img = cap.read() #Loads one frame of video into variable img
